@@ -6,7 +6,7 @@ then makes a Whois query to find if the original domain and the homographs have 
 Finally, the script writes a file with the results.
 
 Run it like:
-hhunter.py target_domains.txt
+python3 hhunter.py target_domains.txt
 
 Where target_domains.txt contains the domains you want to test, one per line.
 
@@ -14,7 +14,6 @@ Problem? github.com/phr3sh/ha-hunter/
 
 '''
 
-#!/usr/bin/python
 
 import sys
 import itertools
