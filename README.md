@@ -20,4 +20,6 @@ I had read of this other tool called ha-finder https://github.com/loganmeetsworl
 it takes a list of domain names and replaces all possible letters with their homoglyphs.
 
 What makes ha-hunter different is that it generates homographs with all possible character combinations. This means it generates homographs with 1 glyph replaced or 2 or 3 or as many combinations there can be. 
-...also, it's written in python.
+...also, it's written in python3.
+
+Clone it, install the requirements, run it, have fun!
