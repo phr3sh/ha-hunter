@@ -4,10 +4,10 @@ Homograph Domain Attacks Hunter
 I was reading this https://wildfire.blazeinfosec.com/what-you-see-is-not-what-you-get-when-homographs-attack
 
 The technique isn't really fresh, it has been around for some time... but I still thought it was cool and wanted to try it out.
-
 Keep in mind that most modern web clients will convert these Internationalized Domain Names to Punycode to prevent confusion.
 
-### TLDR:
+TLDR:
+
 Homoglyphs are characters that belong to different alphabets that look alike. Sometimes depending on the font they happen to get rendered in a visually indistinguishable way, making it impossible for a user to tell the difference between them.
 
 For the naked eye 'a' and 'а' looks the same (a homoglyph), but the former belongs to the Latin script and the latter to Cyrillic. While for the untrained human eye it is hard to distinguish between both of them, they may get interpreted entirely different by computers.
