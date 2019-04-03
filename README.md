@@ -1,7 +1,8 @@
 # ha-hunter
 Homograph Domain Attacks Hunter
 
-I was reading this https://wildfire.blazeinfosec.com/what-you-see-is-not-what-you-get-when-homographs-attack/
+I was reading this https://wildfire.blazeinfosec.com/what-you-see-is-not-what-you-get-when-homographs-attack
+
 The technique isn't really fresh, it has been around for some time... but I still thought it was cool and wanted to try it out.
 
 Keep in mind that most modern web clients will convert these Internationalized Domain Names to Punycode to prevent confusion.
