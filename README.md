@@ -31,4 +31,6 @@ What makes ha-hunter different is that it generates homographs with all possible
 
 ## Usage
 Clone it, install the requirements and run it as:
+```
 $ python3 hhunter.py target_domains.txt
+```
