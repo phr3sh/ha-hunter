@@ -22,4 +22,5 @@ it takes a list of domain names and replaces all possible letters with their hom
 What makes ha-hunter different is that it generates homographs with all possible character combinations. This means it generates homographs with 1 glyph replaced or 2 or 3 or as many combinations there can be. 
 ...also, it's written in python3.
 
-Clone it, install the requirements, run it, have fun!
+Clone it, install the requirements and run it as:
+$ python3 hhunter.py target_domains.txt
