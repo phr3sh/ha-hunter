@@ -24,9 +24,13 @@ Red Teams could use these domain names for their campaigns. Blue teams should hu
 ## Why did I write this?
 
 I had read of this other tool called ha-finder https://github.com/loganmeetsworld/homographs-talk/tree/master/ha-finder
-it takes a list of domain names and replaces all possible letters with their homoglyphs.
+it takes a list of domain names and replaces all possible letters with their homoglyphs to form full homographs.
 
-What makes ha-hunter different is that it generates homographs with all possible character combinations. This means it generates homographs with 1 glyph replaced or 2 or 3 or as many combinations there can be. 
+Initially in Internationalized Domain Names version 1, it was possible to register a combination of ASCII and Unicode into the same domain. This clearly presented a security problem and it is no longer true since the adoption of IDN version 2 and 3, which further locked down the registration of Unicode domain names. Most notably, it instructed gTLDs to prevent the registration of domain names that contain mixed scripts (e.g., Latin and Kanji characters in the same string).
+
+Although many top-level domain registrars restrict mixed scripts, not all of them do.
+
+What makes ha-hunter different is that it generates homographs with all possible character combinations. This means it generates partial homographs with 1 glyph replaced or 2 or 3 or as many combinations there can be. 
 ...also, it's written in python3.
 
 ## Usage
